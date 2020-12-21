@@ -11,14 +11,40 @@
   background-color: #253141;
   height: 100px;
   padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-name a {
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-create-btn a {
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side-chatrooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
 }
 
+.room {
+  padding: 20px 0px 40px 0px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .main-chat {
   width: calc(100vw - 300px);
 }
