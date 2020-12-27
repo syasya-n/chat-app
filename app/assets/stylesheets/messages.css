@@ -121,14 +121,14 @@
   background-color: white;
 }
 
-.input-text {
+.form-message {
   padding-left: 10px;
   border: none;
   height: 50px;
   width: 100%;
 }
 
-.message-send {
+.form-submit {
   margin-left: 15px;
   font-size: 16px;
   color: white;
